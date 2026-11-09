@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daffa Rahmandani | Full-Stack &amp; AI Developer Portfolio</title>
+
+<!-- Font Integration: Plus Jakarta Sans & JetBrains Mono -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+<!-- Pure Vanilla CSS External Integration -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BEGIN: Navigation -->
+<header class="site-header">
+  <div class="container header-inner">
+    
+    <!-- Logo Brand dengan SVG Icon Rapi -->
+    <a class="brand-logo" href="#index">
+      <div class="logo-icon-box">
+        <svg style="width:20px; height:20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
+        </svg>
+      </div>
+      <span class="font-mono uppercase name">DAFFARAHMANDANI.DEV</span>
+    </a>
+
+    <!-- Navigasi Menu Interaktif dengan Penanda Background -->
+    <nav class="font-mono uppercase nav-menu">
+      <a class="nav-link active" href="#index">
+        <span class="nav-active-dot"></span>
+        <span>INDEX</span>
+      </a>
+      <a class="nav-link" href="#about">01. ABOUT</a>
+      <a class="nav-link" href="#skills">02. SKILLS</a>
+      <a class="nav-link" href="#projects">03. PROJECTS</a>
+      <a class="nav-link" href="#contact">04. CONTACT</a>
+    </nav>
+
+    <!-- Tombol Action -->
+    <div>
+      <a class="font-mono uppercase btn-talk" href="#contact">
+        <span>LET'S TALK</span>
+        <svg style="width:14px; height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</header>
+<!-- END: Navigation -->
+
+<!-- BEGIN: Live System Ticker -->
+<div class="live-ticker">
+<div class="container ticker-wrapper">
+<div class="ticker-left">
+<span class="status-dot-box">
+<span class="status-dot-ping"></span>
+<span class="status-dot-main"></span>
+</span>
+<span class="font-mono uppercase" style="color:#34d399; font-weight:700;">SYSTEM STATUS:</span>
+<span class="font-mono" style="color:#94a3b8;">AVAILABLE FOR Q2-Q4 2026 PROJECTS &amp; ENTERPRISE COLLABORATION</span>
+</div>
+<div class="font-mono ticker-right">
+<span>LOC: SURABAYA / SIDOARJO (ID)</span>
+<span>•</span>
+<span style="color:var(--color-brand-400);">STACK: LARAVEL • FLUTTER • YOLOv8 • NEXT.JS</span>
+</div>
+</div>
+</div>
+<!-- END: Live System Ticker -->
+
+<!-- BEGIN: MainHero Section -->
+<main class="container bg-grid-pattern hero-section" id="index">
+<div class="hero-card">
+<div class="hero-card-grid">
+
+<div class="hero-left-col">
+<div class="font-mono uppercase badge-pill">
+<span class="dot-red"></span>
+PORTFOLIO INFORMATIKA MODERN
+</div>
+<div>
+<h1 class="font-mono uppercase hero-title">
+DAFFA<br>
+<span style="color:var(--color-brand-600);">RAHMANDANI</span>
+</h1>
+</div>
+<p class="hero-subtitle">
+“Building Scalable Web Systems, Mobile Apps &amp; Applied AI Solutions”
+</p>
+<div class="hero-contact-btns">
+<a class="font-mono btn-chip" href="mailto:daffarahmandani5@gmail.com">
+<svg style="width:16px; height:16px; color:var(--color-brand-600);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>daffarahmandani5@gmail.com</span>
+</a>
+<a class="font-mono btn-chip" href="https://github.com/daffarahmandani" rel="noopener noreferrer" target="_blank">
+<svg style="width:16px; height:16px; color:#0f172a;" fill="currentColor" viewBox="0 0 24 24">
+<path clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" fill-rule="evenodd"></path>
+</svg>
+<span>github.com/daffarahmandani</span>
+</a>
+</div>
+</div>
+
+<div class="hero-right-col">
+<div class="banner-red-card">
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+<span class="font-mono uppercase" style="font-size:11px; font-weight:700; color:var(--color-brand-100); letter-spacing:0.1em;">INFORMATIKA &amp; SI</span>
+<span style="width:10px; height:10px; border-radius:50%; background:#fff;"></span>
+</div>
+<h2 class="font-mono uppercase" style="font-size:1.5rem; font-weight:900; line-height:1.2; margin-bottom:0.75rem;">FULL-STACK &amp; AI DEV</h2>
+<p style="font-size:0.75rem; color:var(--color-brand-50); opacity:0.95; margin-bottom:1.5rem;">
+Pengembangan perangkat lunak end-to-end terintegrasi dengan arsitektur modern &amp; performa tinggi.
+</p>
+<div class="font-mono" style="padding-top:1rem; border-top:1px solid rgba(239, 68, 68, 0.6); display:flex; justify-content:space-between; align-items:center; font-size:0.75rem;">
+<span class="uppercase" style="font-weight:700; display:flex; align-items:center; gap:0.375rem;">
+<svg style="width:14px; height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+SURABAYA, ID
+</span>
+<div style="width:24px; height:24px; border-radius:50%; background:rgba(255,255,255,0.2); display:flex; align-items:center; justify-content:center;">→</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Quick Jump Navigation -->
+<div class="quick-jump-box">
+<div class="font-mono uppercase quick-jump-header">
+<svg style="width:16px; height:16px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>TABLE OF CONTENTS / NAVIGASI QUICK-LINK</span>
+</div>
+<div class="quick-jump-grid">
+<a class="font-mono quick-jump-item" href="#about">01 INTRODUCTION</a>
+<a class="font-mono quick-jump-item" href="#about">02 ABOUT ME</a>
+<a class="font-mono quick-jump-item" href="#skills">03 CORE SKILLS</a>
+<a class="font-mono quick-jump-item" href="#projects">04 PROJECT SHOWCASE</a>
+</div>
+</div>
+</main>
+<!-- END: MainHero Section -->
+
+<!-- BEGIN: Section 01 About & Profile -->
+<section class="container" id="about" style="padding-top:2.5rem; padding-bottom:2.5rem;">
+  <div class="section-header">
+    <span class="font-mono section-number">01</span>
+    <h2 class="font-mono uppercase section-title">INTRODUCTION &amp; ABOUT ME</h2>
+  </div>
+
+  <div class="about-card">
+    <div class="about-grid">
+
+      <!-- Profile Column (Full Cover Background Image + Overlay) -->
+      <div class="profile-col-light">
+        <!-- Foto Profil sebagai Latar Belakang Penuh -->
+        <img src="assets/profile.jpg" alt="Profile Developer Daffa Rahmandani" class="profile-avatar-img-bg">
+        <!-- Overlay Gradien Gelap -->
+        <div class="profile-overlay-dark"></div>
+
+        <!-- Header Badges -->
+        <div class="profile-header-badges">
+          <span class="font-mono uppercase badge-dev-red">PROFIL DEVELOPER</span>
+          <span class="font-mono badge-verified-light">
+            <span style="width:8px; height:8px; border-radius:50%; background-color:#34d399;"></span>
+            VERIFIED ENGINEER
+          </span>
+        </div>
+
+        <!-- Nama & Badge Prestasi -->
+        <div class="profile-main-info">
+          <div class="font-mono uppercase profile-name-light">
+            DAFFA<br>
+            <span class="highlight">RAHMANDANI</span>
+          </div>
+
+          <div class="profile-badges-wrapper">
+            <span class="font-mono badge-light-outline">BRONZE MEDAL IDEA FEST</span>
+            <span class="font-mono badge-light-outline red-text">COMPETITIVE PROGRAMMING &amp; AI</span>
+          </div>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="profile-footer-info">
+          <div class="font-mono" style="color:#ffffff; font-size:0.75rem; font-weight:700;">Teknik Informatika — Untag Surabaya</div>
+          <div style="color:var(--color-slate-300); font-size:0.75rem; margin-top:0.125rem; font-weight:500;">Fokus pada rekayasa perangkat lunak skala enterprise &amp; integrasi AI.</div>
+        </div>
+      </div>
+
+      <!-- Details Column -->
+      <div class="about-details-col">
+        <div>
+          <h3 style="font-size:1.75rem; font-weight:800; color:var(--color-slate-950);">Daffa Rahmandani</h3>
+          <p class="font-mono" style="color:var(--color-brand-600); font-size:0.875rem; font-weight:600; margin-top:0.25rem; margin-bottom:1rem;">
+            Full-Stack Web &amp; Mobile Developer
+          </p>
+          <p style="color:var(--color-slate-600); font-size:0.875rem; line-height:1.6;">
+            Mahasiswa Teknik Informatika Universitas 17 Agustus 1945 Surabaya yang berfokus pada pengembangan produk perangkat lunak <span style="color:var(--color-slate-900); font-weight:600;">end-to-end</span>. Berpengalaman membangun platform kesehatan skala provinsi, sistem administrasi publik, aplikasi mobile e-commerce, hingga integrasi <span style="color:var(--color-slate-900); font-weight:600;">Computer Vision &amp; AI</span>.
+          </p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-mini-card">
+            <div style="display:flex; align-items:center; gap:0.375rem; margin-bottom:0.5rem;">
+              <span style="width:6px; height:6px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+              <span class="font-mono uppercase" style="font-size:10px; font-weight:700; color:var(--color-brand-600);">01 / END-TO-END</span>
+            </div>
+            <div class="font-mono" style="font-weight:700; color:var(--color-slate-900); font-size:0.875rem;">Full Lifecycle Dev</div>
+            <div style="font-size:11px; color:var(--color-slate-500); margin-top:0.375rem;">From schema design to deployment &amp; API integration</div>
+          </div>
+
+          <div class="highlight-mini-card">
+            <div style="display:flex; align-items:center; gap:0.375rem; margin-bottom:0.5rem;">
+              <span style="width:6px; height:6px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+              <span class="font-mono uppercase" style="font-size:10px; font-weight:700; color:var(--color-brand-600);">02 / ARCHITECTURE</span>
+            </div>
+            <div class="font-mono" style="font-weight:700; color:var(--color-slate-900); font-size:0.875rem;">Modern Tech Stack</div>
+            <div style="font-size:11px; color:var(--color-slate-500); margin-top:0.375rem;">Laravel, Next.js, Flutter, Python &amp; REST API</div>
+          </div>
+
+          <div class="highlight-mini-card">
+            <div style="display:flex; align-items:center; gap:0.375rem; margin-bottom:0.5rem;">
+              <span style="width:6px; height:6px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+              <span class="font-mono uppercase" style="font-size:10px; font-weight:700; color:var(--color-brand-600);">03 / IMPACT</span>
+            </div>
+            <div class="font-mono" style="font-weight:700; color:var(--color-slate-900); font-size:0.875rem;">Problem Solver</div>
+            <div style="font-size:11px; color:var(--color-slate-500); margin-top:0.375rem;">Focused on public service, healthcare &amp; practical utility</div>
+          </div>
+
+          <div class="highlight-mini-card">
+            <div style="display:flex; align-items:center; gap:0.375rem; margin-bottom:0.5rem;">
+              <span style="width:6px; height:6px; border-radius:50%; background-color:#10b981;"></span>
+              <span class="font-mono uppercase" style="font-size:10px; font-weight:700; color:#059669;">04 / RESEARCH</span>
+            </div>
+            <div class="font-mono" style="font-weight:700; color:var(--color-slate-900); font-size:0.875rem;">Continuous Learner</div>
+            <div style="font-size:11px; color:var(--color-slate-500); margin-top:0.375rem;">Active explorer of computer vision, AI &amp; modern frameworks</div>
+          </div>
+        </div>
+
+        <div class="edu-loc-grid">
+          <div class="info-card-gray">
+            <span class="font-mono uppercase" style="display:block; font-size:11px; color:var(--color-slate-400); font-weight:700; margin-bottom:0.25rem;">PENDIDIKAN</span>
+            <span style="font-size:0.875rem; font-weight:700; color:var(--color-slate-900);">S1 Teknik Informatika</span>
+            <p style="font-size:0.75rem; color:var(--color-slate-500); margin-top:0.125rem;">Universitas 17 Agustus 1945 Surabaya</p>
+          </div>
+          <div class="info-card-gray">
+            <span class="font-mono uppercase" style="display:block; font-size:11px; color:var(--color-slate-400); font-weight:700; margin-bottom:0.25rem;">LOKASI</span>
+            <span style="font-size:0.875rem; font-weight:700; color:var(--color-slate-900);">Surabaya / Sidoarjo, ID</span>
+            <p style="font-size:0.75rem; color:var(--color-slate-500); margin-top:0.125rem;">WIB • Ready for Remote &amp; On-Site</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- END: Section 01 About & Profile -->
+
+<!-- BEGIN: Section 02 Core Technical Skills -->
+<section class="container" id="skills" style="padding-top:2.5rem; padding-bottom:2.5rem;">
+<div class="section-header">
+<span class="font-mono section-number">02</span>
+<h2 class="font-mono uppercase section-title">CORE TECHNICAL SKILLS</h2>
+</div>
+
+<div class="skills-grid">
+<div class="skill-card">
+<div style="display:flex; align-items:flex-start; gap:1rem; margin-bottom:1rem;">
+<div class="skill-icon-wrapper">
+<svg style="width:24px; height:24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-mono" style="font-size:1.125rem; font-weight:700; color:var(--color-slate-900);">Full-Stack Web Dev</h3>
+<p style="font-size:0.75rem; color:var(--color-slate-500);">Backend &amp; Frontend Systems</p>
+</div>
+</div>
+<div class="tags-wrapper">
+<span class="font-mono tag-badge">PHP</span>
+<span class="font-mono tag-badge brand-highlight">Laravel</span>
+<span class="font-mono tag-badge">Next.js</span>
+<span class="font-mono tag-badge">MySQL</span>
+<span class="font-mono tag-badge">RESTful API</span>
+</div>
+</div>
+
+<div class="skill-card">
+<div style="display:flex; align-items:flex-start; gap:1rem; margin-bottom:1rem;">
+<div class="skill-icon-wrapper">
+<svg style="width:24px; height:24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-mono" style="font-size:1.125rem; font-weight:700; color:var(--color-slate-900);">Mobile App Dev</h3>
+<p style="font-size:0.75rem; color:var(--color-slate-500);">Cross-Platform Solutions</p>
+</div>
+</div>
+<div class="tags-wrapper">
+<span class="font-mono tag-badge brand-highlight">Flutter</span>
+<span class="font-mono tag-badge">Dart</span>
+<span class="font-mono tag-badge">Cross-Platform Architecture</span>
+</div>
+</div>
+
+<div class="skill-card">
+<div style="display:flex; align-items:flex-start; gap:1rem; margin-bottom:1rem;">
+<div class="skill-icon-wrapper">
+<svg style="width:24px; height:24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-mono" style="font-size:1.125rem; font-weight:700; color:var(--color-slate-900);">AI &amp; Computer Vision</h3>
+<p style="font-size:0.75rem; color:var(--color-slate-500);">Real-Time Machine Intelligence</p>
+</div>
+</div>
+<div class="tags-wrapper">
+<span class="font-mono tag-badge">Python</span>
+<span class="font-mono tag-badge brand-highlight">YOLO v8 Object Detection</span>
+<span class="font-mono tag-badge">OpenCV</span>
+<span class="font-mono tag-badge">Live Camera Stream</span>
+</div>
+</div>
+
+<div class="skill-card">
+<div style="display:flex; align-items:flex-start; gap:1rem; margin-bottom:1rem;">
+<div class="skill-icon-wrapper">
+<svg style="width:24px; height:24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-mono" style="font-size:1.125rem; font-weight:700; color:var(--color-slate-900);">Developer Tools</h3>
+<p style="font-size:0.75rem; color:var(--color-slate-500);">Workflow &amp; Cloud Infrastructure</p>
+</div>
+</div>
+<div class="tags-wrapper">
+<span class="font-mono tag-badge">Git/GitHub</span>
+<span class="font-mono tag-badge">Postman</span>
+<span class="font-mono tag-badge">Supabase</span>
+<span class="font-mono tag-badge">Looker Studio</span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section 02 Core Technical Skills -->
+
+<!-- BEGIN: Section 03 Project Portfolio -->
+<section class="container" id="projects" style="padding-top:2.5rem; padding-bottom:2.5rem;">
+<div class="section-header">
+<span class="font-mono section-number">03</span>
+<h2 class="font-mono uppercase section-title">PROJECT PORTFOLIO (PROYEK UNGGULAN)</h2>
+</div>
+
+<div class="projects-container">
+
+<!-- PROYEK 1: E-DETIK (Tetap Menggunakan Frame HP) -->
+<article class="project-card">
+<div class="project-card-header">
+<div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
+<span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+<span>PROYEK 1 — HEALTH SYSTEM</span>
+</div>
+<span class="font-mono" style="padding:0.375rem 0.875rem; border-radius:9999px; background-color:var(--color-brand-50); border:1px solid rgba(254,202,202,0.8); color:var(--color-brand-700); font-size:0.75rem; font-weight:700;">
+Magang Dinkes Prov. Jatim
+</span>
+</div>
+
+<div class="project-preview-box red-theme">
+<div class="phones-grid">
+<div class="phone-mockup-frame">
+<div class="phone-mockup-screen">
+<img src="assets/e-detik-1.jpg" onerror="this.src='assets/e-detik.jpg'" alt="E-DETIK Screen 1">
+</div>
+</div>
+<div class="phone-mockup-frame" style="transform:translateY(-8px);">
+<div class="phone-mockup-screen">
+<img src="assets/e-detik-2.jpg" onerror="this.src='assets/e-detik.jpg'" alt="E-DETIK Screen 2">
+</div>
+</div>
+<div class="phone-mockup-frame">
+<div class="phone-mockup-screen">
+<img src="assets/e-detik-3.jpg" onerror="this.src='assets/e-detik.jpg'" alt="E-DETIK Screen 3">
+</div>
+</div>
+</div>
+</div>
+
+<div style="display:flex; flex-direction:column; gap:1rem;">
+<h3 style="font-size:1.5rem; font-weight:800; color:var(--color-slate-950);">
+E-DETIK — Platform Pemantauan Stunting &amp; Ibu Hamil
+</h3>
+<div class="project-details-grid">
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">ROLE</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Full-Stack Web Dev</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">TECH STACK</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-brand-600); margin-top:0.125rem;">Laravel, PHP, MySQL</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">SCOPE</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Prov. Jawa Timur</div>
+</div>
+</div>
+<p style="color:var(--color-slate-600); font-size:0.875rem; line-height:1.6;">
+Sistem informasi kesehatan skala daerah untuk pemantauan dini risiko stunting dan rekam kesehatan ibu hamil secara real-time. Dirancang untuk mengakomodasi beban ribuan tenaga puskesmas dan dinas kesehatan di Jawa Timur.
+</p>
+</div>
+</article>
+
+<!-- PROYEK 2: SI-MASJID (DESAIN KHUSUS: FRAME HP DIHAPUSKAN) -->
+<article class="project-card">
+<div class="project-card-header">
+<div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
+<span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+<span>PROYEK 2 — ADMINISTRATION SYSTEM</span>
+</div>
+<span class="font-mono" style="padding:0.375rem 0.875rem; border-radius:9999px; background-color:#ecfdf5; border:1px solid #a7f3d0; color:#047857; font-size:0.75rem; font-weight:700;">
+Pengabdian Masyarakat
+</span>
+</div>
+
+<!-- Gambar Proyek 2 langsung tanpa frame HP -->
+<div class="project-preview-box emerald-theme">
+<div class="frameless-grid">
+<div class="frameless-card">
+<img src="assets/simasjid.png" alt="SI-MASJID Dashboard">
+</div>
+<div class="frameless-card">
+<img src="assets/simasjid-2.png" alt="SI-MASJID Kas Utama">
+</div>
+<div class="frameless-card">
+<img src="assets/simasjid-3.png" alt="SI-MASJID Wakaf Lahan">
+</div>
+</div>
+</div>
+
+<div style="display:flex; flex-direction:column; gap:1rem;">
+<h3 style="font-size:1.5rem; font-weight:800; color:var(--color-slate-950);">
+SI-MASJID — Digitalisasi Administrasi &amp; Kas Masjid Al-Kahfi[cite: 1]
+</h3>
+<div class="project-details-grid">
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">ROLE</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Full-Stack Developer[cite: 1]</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">TECH STACK</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-brand-600); margin-top:0.125rem;">Laravel, PHP, Bootstrap[cite: 1]</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">IMPACT</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Otomatisasi Kas &amp; Donasi[cite: 1]</div>
+</div>
+</div>
+<p style="color:var(--color-slate-600); font-size:0.875rem; line-height:1.6;">
+Website manajemen kas otomatis, pendataan kurban, dan transparansi donasi wakaf lahan yang dirancang mobile-friendly untuk pengurus masjid dan transparansi jamaah umum[cite: 1].
+</p>
+</div>
+</article>
+
+<!-- PROYEK 3: E-KIA (Tetap Menggunakan Frame HP) -->
+<article class="project-card">
+<div class="project-card-header">
+<div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
+<span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+<span>PROYEK 3 — MOBILE APP POSYANDU</span>
+</div>
+<span class="font-mono" style="padding:0.375rem 0.875rem; border-radius:9999px; background-color:#fff1f2; border:1px solid #fecdd3; color:#be123c; font-size:0.75rem; font-weight:700;">
+Mobile Solution
+</span>
+</div>
+
+<div class="project-preview-box rose-theme">
+<div class="phones-grid">
+<div class="phone-mockup-frame">
+<div class="phone-mockup-screen">
+<img src="assets/e-kia-1.png" alt="Portal Bidan">
+</div>
+</div>
+<div class="phone-mockup-frame" style="transform:translateY(-8px);">
+<div class="phone-mockup-screen">
+<img src="assets/e-kia-2.png" alt="Rekapitulasi Data">
+</div>
+</div>
+<div class="phone-mockup-frame">
+<div class="phone-mockup-screen">
+<img src="assets/e-kia-3.png" alt="Portal Ibu Hamil">
+</div>
+</div>
+</div>
+</div>
+
+<div style="display:flex; flex-direction:column; gap:1rem;">
+<h3 style="font-size:1.5rem; font-weight:800; color:var(--color-slate-950);">
+E-KIA / Mobile-KIA — Monitoring Stunting &amp; Posyandu
+</h3>
+<div class="project-details-grid">
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">ROLE</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Mobile Developer</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">TECH STACK</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-brand-600); margin-top:0.125rem;">Flutter, Dart, REST API</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">FEATURES</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Portal Bidan, Kader &amp; Ibu</div>
+</div>
+</div>
+<p style="color:var(--color-slate-600); font-size:0.875rem; line-height:1.6;">
+Aplikasi mobile multi-akses untuk Bidan, Kader Kesehatan, dan Ibu Hamil dalam memantau status stunting balita, antropometri, dan rekapitulasi data Posyandu secara terpadu.
+</p>
+</div>
+</article>
+
+<!-- PROYEK 4: YOLO v8 AI -->
+<article class="project-card">
+<div class="project-card-header">
+<div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
+<span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
+<span>PROYEK 4 — COMPUTER VISION AI</span>
+</div>
+<span class="font-mono" style="padding:0.375rem 0.875rem; border-radius:9999px; background-color:var(--color-slate-100); border:1px solid var(--color-slate-300); color:var(--color-slate-800); font-size:0.75rem; font-weight:700;">
+YOLO v8 Object Detection
+</span>
+</div>
+
+<div class="terminal-window">
+<div class="terminal-header font-mono">
+<div style="color:var(--color-slate-300); font-weight:600; display:flex; align-items:center; gap:0.5rem;">
+<span style="color:var(--color-brand-500); font-weight:700;">&gt;_</span>
+<span>deteksi_sampah_roboflow.py [30 FPS]</span>
+</div>
+<span style="padding:0.125rem 0.5rem; border-radius:0.25rem; background-color:rgba(16,185,129,0.2); border:1px solid rgba(16,185,129,0.3); color:#34d399; font-weight:700; font-size:10px;">
+RUNNING
+</span>
+</div>
+<div style="background-color:var(--color-slate-950); display:flex; align-items:center; justify-content:center; overflow:hidden;">
+<img src="assets/smart-recycling.jpeg" alt="YOLO v8 Deteksi Sampah Real-Time" style="width:100%; height:auto; max-height:500px; object-fit:contain;">
+</div>
+</div>
+
+<div style="display:flex; flex-direction:column; gap:1rem;">
+<h3 style="font-size:1.5rem; font-weight:800; color:var(--color-slate-950);">
+Real-Time Waste Classifier (AI Object Detection)
+</h3>
+<div class="project-details-grid">
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">ROLE</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">AI &amp; Vision Dev</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">TECH STACK</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-brand-600); margin-top:0.125rem;">Python, YOLO v8</div>
+</div>
+<div>
+<div class="font-mono uppercase" style="font-size:11px; color:var(--color-slate-400); font-weight:700;">ACCURACY</div>
+<div class="font-mono" style="font-size:0.75rem; font-weight:600; color:var(--color-slate-800); margin-top:0.125rem;">Real-Time Live</div>
+</div>
+</div>
+<p style="color:var(--color-slate-600); font-size:0.875rem; line-height:1.6;">
+Model deteksi objek untuk mengklasifikasikan jenis sampah (Organik, Anorganik, Metal) secara real-time dari input kamera resolusi tinggi dengan performa inferensi tinggi.
+</p>
+</div>
+</article>
+
+</div>
+</section>
+<!-- END: Section 03 Project Portfolio -->
+
+<!-- BEGIN: Section 04 Contact & Repository Banner -->
+<footer class="container" id="contact" style="padding-top:2rem; padding-bottom:4rem;">
+  <div class="section-header">
+    <span class="font-mono section-number">04</span>
+    <h2 class="font-mono uppercase section-title">CONTACT PERSON &amp; REPOSITORY</h2>
+  </div>
+
+  <div class="footer-banner">
+    <!-- Grid Overlay Pattern sesuai Tema Portofolio -->
+    <div class="bg-grid-pattern" style="position:absolute; inset:0; opacity:0.12; pointer-events:none;"></div>
+
+    <div style="position:relative; z-index:10; display:flex; flex-direction:column; gap:1.25rem;">
+      
+      <!-- Sub-heading -->
+      <div class="font-mono uppercase" style="font-size:0.75rem; letter-spacing:0.12em; color:var(--color-brand-100); font-weight:700;">
+        KOLABORASI &amp; INQUIRIES
+      </div>
+
+      <!-- Judul Utama Proporsional -->
+      <h2 class="footer-title-wide">
+        LET'S BUILD SOMETHING GREAT TOGETHER!
+      </h2>
+
+      <!-- Keterangan Subtitle -->
+      <p style="font-size:0.875rem; color:var(--color-brand-50); font-weight:500; max-width:48rem; line-height:1.6;">
+        Siap berkolaborasi untuk proyek pembuatan website, aplikasi mobile, atau integrasi sistem AI.
+      </p>
+
+      <!-- Grid Tombol Kontak -->
+      <div class="footer-contact-grid">
+        
+        <!-- EMAIL -->
+        <a class="contact-card-btn" href="mailto:daffarahmandani5@gmail.com">
+          <div class="contact-icon-wrapper">
+            <svg style="width:22px; height:22px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            </svg>
+          </div>
+          <div>
+            <span class="font-mono uppercase" style="font-size:10px; letter-spacing:0.05em; color:var(--color-brand-200); font-weight:700; display:block;">
+              EMAIL
+            </span>
+            <span class="font-mono" style="font-size:0.75rem; font-weight:700; color:#ffffff; word-break:break-all;">
+              daffarahmandani5@gmail.com
+            </span>
+          </div>
+        </a>
+
+        <!-- GITHUB -->
+        <a class="contact-card-btn" href="https://github.com/daffarahmandani" rel="noopener noreferrer" target="_blank">
+          <div class="contact-icon-wrapper">
+            <svg style="width:22px; height:22px;" fill="currentColor" viewBox="0 0 24 24">
+              <path clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+          <div>
+            <span class="font-mono uppercase" style="font-size:10px; letter-spacing:0.05em; color:var(--color-brand-200); font-weight:700; display:block;">
+              GITHUB
+            </span>
+            <span class="font-mono" style="font-size:0.75rem; font-weight:700; color:#ffffff; word-break:break-all;">
+              github.com/daffarahmandani
+            </span>
+          </div>
+        </a>
+
+        <!-- WHATSAPP -->
+        <a class="contact-card-btn" href="https://wa.me/628132833513" rel="noopener noreferrer" target="_blank">
+          <div class="contact-icon-wrapper">
+            <svg style="width:22px; height:22px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            </svg>
+          </div>
+          <div>
+            <span class="font-mono uppercase" style="font-size:10px; letter-spacing:0.05em; color:var(--color-brand-200); font-weight:700; display:block;">
+              WHATSAPP
+            </span>
+            <span class="font-mono" style="font-size:0.75rem; font-weight:700; color:#ffffff; word-break:break-all;">
+              +62 813-2833-513
+            </span>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- Footer Copyright -->
+      <div class="font-mono" style="padding-top:2rem; border-top:1px solid rgba(254, 205, 205, 0.2); text-align:center; color:var(--color-brand-100); font-size:0.75rem; margin-top:0.5rem;">
+        © 2026 Daffa Rahmandani. All rights reserved.
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- END: Section 04 Contact & Repository Banner -->
+
+</body>
+</html>
