@@ -361,16 +361,24 @@
   <!-- END: Section 02 Core Technical Skills -->
 
   <!-- SECTION 03: PROJECT PORTFOLIO (#projects) -->
-  <section class="container" id="projects" style="padding-top:2.5rem; padding-bottom:2.5rem;">
-    <div class="section-header">
-      <span class="font-mono section-number">03</span>
-      <h2 class="font-mono uppercase section-title">PROJECT PORTFOLIO (PROYEK UNGGULAN)</h2>
-    </div>
+<section class="container" id="projects" style="padding-top:2.5rem; padding-bottom:2.5rem;">
+  <div class="section-header" style="margin-bottom: 1.25rem;">
+    <span class="font-mono section-number">03</span>
+    <h2 class="font-mono uppercase section-title">PROJECT PORTFOLIO (PROYEK UNGGULAN)</h2>
+  </div>
+
+  <!-- Tombol Filter di Bawah Judul sesuai Desain -->
+  <div style="display:flex; flex-wrap:wrap; gap:0.625rem; margin-bottom:2rem;">
+    <button type="button" class="font-mono filter-btn active" onclick="filterProyek('ALL', this)">ALL PROJECTS</button>
+    <button type="button" class="font-mono filter-btn" onclick="filterProyek('WEB', this)">WEB APPS</button>
+    <button type="button" class="font-mono filter-btn" onclick="filterProyek('MOBILE', this)">MOBILE APPS</button>
+    <button type="button" class="font-mono filter-btn" onclick="filterProyek('AI', this)">AI &amp; VISION</button>
+  </div>
 
     <div class="projects-container">
 
       <!-- PROYEK 1: E-DETIK (Template dengan Frame HP) -->
-      <article class="project-card">
+      <article class="project-card" data-kategori="MOBILE">
         <div class="project-card-header">
           <div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
             <span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
@@ -426,7 +434,7 @@
       </article>
 
       <!-- PROYEK 2: SI-MASJID (Template tanpa Frame HP / Frameless) -->
-      <article class="project-card">
+      <article class="project-card" data-kategori="WEB">
         <div class="project-card-header">
           <div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
             <span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
@@ -476,7 +484,7 @@
       </article>
 
       <!-- PROYEK 3: E-KIA (Template dengan Frame HP) -->
-      <article class="project-card">
+      <article class="project-card" data-kategori="MOBILE">
         <div class="project-card-header">
           <div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
             <span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
@@ -532,7 +540,7 @@
       </article>
 
       <!-- PROYEK 4: YOLO v8 AI (Template Terminal Window) -->
-      <article class="project-card">
+      <article class="project-card" data-kategori="AI">
         <div class="project-card-header">
           <div class="font-mono uppercase" style="display:flex; align-items:center; gap:0.5rem; font-size:0.75rem; font-weight:700; color:var(--color-slate-600);">
             <span style="width:10px; height:10px; border-radius:50%; background-color:var(--color-brand-600);"></span>
@@ -693,6 +701,6 @@
     </div>
   </footer>
   <!-- END: Section 04 Contact & Repository Banner -->
-
+  <script src="script.js"></script>
 </body>
 </html>
